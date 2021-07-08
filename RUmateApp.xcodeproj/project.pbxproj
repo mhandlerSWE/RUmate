@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0D92696840600EC004F /* AppDelegate.swift */; };
 		C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0DB2696840600EC004F /* SceneDelegate.swift */; };
-		C549B0DE2696840600EC004F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0DD2696840600EC004F /* ViewController.swift */; };
 		C549B0E12696840600EC004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C549B0DF2696840600EC004F /* Main.storyboard */; };
 		C549B0E32696840700EC004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C549B0E22696840700EC004F /* Assets.xcassets */; };
 		C549B0E62696840700EC004F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C549B0E42696840700EC004F /* LaunchScreen.storyboard */; };
+		C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0EF2696872F00EC004F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C549B0D62696840600EC004F /* RUmateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUmateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C549B0D92696840600EC004F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C549B0DB2696840600EC004F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C549B0DD2696840600EC004F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C549B0E02696840600EC004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C549B0E22696840700EC004F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C549B0E52696840700EC004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C549B0E72696840700EC004F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C549B0EF2696872F00EC004F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				C549B0D92696840600EC004F /* AppDelegate.swift */,
 				C549B0DB2696840600EC004F /* SceneDelegate.swift */,
-				C549B0DD2696840600EC004F /* ViewController.swift */,
 				C549B0DF2696840600EC004F /* Main.storyboard */,
 				C549B0E22696840700EC004F /* Assets.xcassets */,
 				C549B0E42696840700EC004F /* LaunchScreen.storyboard */,
 				C549B0E72696840700EC004F /* Info.plist */,
+				C549B0EF2696872F00EC004F /* RegisterViewController.swift */,
 			);
 			path = RUmateApp;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C549B0DE2696840600EC004F /* ViewController.swift in Sources */,
+				C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */,
 				C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */,
 				C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */,
 			);
