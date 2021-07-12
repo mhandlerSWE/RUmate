@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		927A3AD879C71C28378F4A34 /* Pods_RUmateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C64EAD4673CDB4D19F7AB26 /* Pods_RUmateApp.framework */; };
 		C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0D92696840600EC004F /* AppDelegate.swift */; };
 		C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0DB2696840600EC004F /* SceneDelegate.swift */; };
 		C549B0E12696840600EC004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C549B0DF2696840600EC004F /* Main.storyboard */; };
 		C549B0E32696840700EC004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C549B0E22696840700EC004F /* Assets.xcassets */; };
 		C549B0E62696840700EC004F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C549B0E42696840700EC004F /* LaunchScreen.storyboard */; };
 		C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0EF2696872F00EC004F /* RegisterViewController.swift */; };
+		C5BB2F3A269BD3E000D5AC35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */; };
+		C5BB2F3D269BD57600D5AC35 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB2F3C269BD57600D5AC35 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C64EAD4673CDB4D19F7AB26 /* Pods_RUmateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUmateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2525660C412341B9A8A7A0 /* Pods-RUmateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUmateApp.debug.xcconfig"; path = "Target Support Files/Pods-RUmateApp/Pods-RUmateApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C549B0D62696840600EC004F /* RUmateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUmateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C549B0D92696840600EC004F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C549B0DB2696840600EC004F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		C549B0E52696840700EC004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C549B0E72696840700EC004F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C549B0EF2696872F00EC004F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5BB2F3C269BD57600D5AC35 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		ED892E3DDD527A0ACB4503CA /* Pods-RUmateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUmateApp.release.xcconfig"; path = "Target Support Files/Pods-RUmateApp/Pods-RUmateApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927A3AD879C71C28378F4A34 /* Pods_RUmateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3A487E85A88F89F98F81D19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C64EAD4673CDB4D19F7AB26 /* Pods_RUmateApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EBBCA94569F135683AEBC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D2525660C412341B9A8A7A0 /* Pods-RUmateApp.debug.xcconfig */,
+				ED892E3DDD527A0ACB4503CA /* Pods-RUmateApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C549B0CD2696840500EC004F = {
 			isa = PBXGroup;
 			children = (
 				C549B0D82696840600EC004F /* RUmateApp */,
 				C549B0D72696840600EC004F /* Products */,
+				C2EBBCA94569F135683AEBC5 /* Pods */,
+				B3A487E85A88F89F98F81D19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +90,19 @@
 				C549B0E22696840700EC004F /* Assets.xcassets */,
 				C549B0E42696840700EC004F /* LaunchScreen.storyboard */,
 				C549B0E72696840700EC004F /* Info.plist */,
-				C549B0EF2696872F00EC004F /* RegisterViewController.swift */,
+				C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */,
+				C5BB2F3F269BD58600D5AC35 /* Authentication */,
 			);
 			path = RUmateApp;
+			sourceTree = "<group>";
+		};
+		C5BB2F3F269BD58600D5AC35 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB2F3C269BD57600D5AC35 /* LogInViewController.swift */,
+				C549B0EF2696872F00EC004F /* RegisterViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C549B0EA2696840700EC004F /* Build configuration list for PBXNativeTarget "RUmateApp" */;
 			buildPhases = (
+				0BE208A65364466F7E7C7809 /* [CP] Check Pods Manifest.lock */,
 				C549B0D22696840600EC004F /* Sources */,
 				C549B0D32696840600EC004F /* Frameworks */,
 				C549B0D42696840600EC004F /* Resources */,
+				8CFD71BD4411137954E146B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C549B0E62696840700EC004F /* LaunchScreen.storyboard in Resources */,
+				C5BB2F3A269BD3E000D5AC35 /* GoogleService-Info.plist in Resources */,
 				C549B0E32696840700EC004F /* Assets.xcassets in Resources */,
 				C549B0E12696840600EC004F /* Main.storyboard in Resources */,
 			);
@@ -132,11 +173,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BE208A65364466F7E7C7809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RUmateApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFD71BD4411137954E146B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUmateApp/Pods-RUmateApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RUmateApp/Pods-RUmateApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RUmateApp/Pods-RUmateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C549B0D22696840600EC004F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BB2F3D269BD57600D5AC35 /* LogInViewController.swift in Sources */,
 				C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */,
 				C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */,
 				C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */,
@@ -283,6 +367,7 @@
 		};
 		C549B0EB2696840700EC004F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2525660C412341B9A8A7A0 /* Pods-RUmateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +387,7 @@
 		};
 		C549B0EC2696840700EC004F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED892E3DDD527A0ACB4503CA /* Pods-RUmateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

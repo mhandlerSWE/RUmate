@@ -1,0 +1,6 @@
+framework module Pods_RUmateApp {
+  umbrella header "Pods-RUmateApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
