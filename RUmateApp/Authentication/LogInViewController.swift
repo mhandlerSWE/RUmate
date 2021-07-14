@@ -9,10 +9,35 @@ import UIKit
 
 class LogInViewController: UIViewController {
 
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var logInButton: UIButton!
+    @IBOutlet weak var registerButton: UIButton!
+    
+    
+    @IBAction func didTapLogInButton(_ sender: Any) {
+        //login user with firebase auth
+    }
+    
+    @IBAction func didTapRegisterButton(_ sender: Any) {
+        //send user to registration page
+        self.performSegue(withIdentifier: "toRegisterAccountView", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.logInButton.layer.cornerRadius = 10
+        self.logInButton.clipsToBounds = true
+        
+        self.registerButton.layer.cornerRadius = 10
+        self.registerButton.clipsToBounds = true
+        
+        
     }
     
 
