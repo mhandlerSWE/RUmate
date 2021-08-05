@@ -16,6 +16,7 @@
 		C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0EF2696872F00EC004F /* RegisterViewController.swift */; };
 		C5BB2F3A269BD3E000D5AC35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */; };
 		C5BB2F3D269BD57600D5AC35 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB2F3C269BD57600D5AC35 /* LogInViewController.swift */; };
+		C5E05A3626BB3C37005CBBC5 /* GradYearAndMajorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E05A3526BB3C37005CBBC5 /* GradYearAndMajorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C549B0EF2696872F00EC004F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5BB2F3C269BD57600D5AC35 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C5E05A3526BB3C37005CBBC5 /* GradYearAndMajorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradYearAndMajorVC.swift; sourceTree = "<group>"; };
 		ED892E3DDD527A0ACB4503CA /* Pods-RUmateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUmateApp.release.xcconfig"; path = "Target Support Files/Pods-RUmateApp/Pods-RUmateApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				C549B0E72696840700EC004F /* Info.plist */,
 				C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */,
 				C5BB2F3F269BD58600D5AC35 /* Authentication */,
+				C5E05A3526BB3C37005CBBC5 /* GradYearAndMajorVC.swift */,
 			);
 			path = RUmateApp;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				C5BB2F3D269BD57600D5AC35 /* LogInViewController.swift in Sources */,
 				C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */,
+				C5E05A3626BB3C37005CBBC5 /* GradYearAndMajorVC.swift in Sources */,
 				C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */,
 				C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */,
 			);
