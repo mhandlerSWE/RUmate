@@ -34,6 +34,13 @@ class GradYearAndMajorVC: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         self.yearPicker.dataSource = self
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        if(Core.shared.isNewUser()) {
+            //
+        }
+    }
+    
     //number of columns of data
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1;
@@ -63,4 +70,16 @@ class GradYearAndMajorVC: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     }
     
     
+}
+
+class Core {
+    static let shared = Core()
+    
+    func isNewUser() -> Bool {
+        return !UserDefaults.standard.bool(forKey: "isNewUser")
+    }
+    
+    func setIsNotNewUser() {
+        UserDefaults.standard.set(true, forKey: "isNewUser")
+    }
 }
