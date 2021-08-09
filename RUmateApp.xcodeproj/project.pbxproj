@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714442DB26C0986F0056A314 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714442DA26C0986F0056A314 /* FeedCollectionViewCell.swift */; };
+		71FBA94726C0B8BD00F4A303 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FBA94626C0B8BD00F4A303 /* FeedViewController.swift */; };
 		927A3AD879C71C28378F4A34 /* Pods_RUmateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C64EAD4673CDB4D19F7AB26 /* Pods_RUmateApp.framework */; };
 		C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0D92696840600EC004F /* AppDelegate.swift */; };
 		C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549B0DB2696840600EC004F /* SceneDelegate.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		5C64EAD4673CDB4D19F7AB26 /* Pods_RUmateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUmateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714442DA26C0986F0056A314 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		71FBA94626C0B8BD00F4A303 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9D2525660C412341B9A8A7A0 /* Pods-RUmateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUmateApp.debug.xcconfig"; path = "Target Support Files/Pods-RUmateApp/Pods-RUmateApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C549B0D62696840600EC004F /* RUmateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUmateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C549B0D92696840600EC004F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +52,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714442D926C098110056A314 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				714442DA26C0986F0056A314 /* FeedCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		71D07E6526C087B9001488E6 /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				714442D926C098110056A314 /* CollectionViewCells */,
+				71FBA94626C0B8BD00F4A303 /* FeedViewController.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
 		B3A487E85A88F89F98F81D19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +107,15 @@
 		C549B0D82696840600EC004F /* RUmateApp */ = {
 			isa = PBXGroup;
 			children = (
-				C549B0D92696840600EC004F /* AppDelegate.swift */,
+				71D07E6526C087B9001488E6 /* HomeFeed */,
+				C5BB2F3F269BD58600D5AC35 /* Authentication */,
 				C549B0DB2696840600EC004F /* SceneDelegate.swift */,
+				C549B0D92696840600EC004F /* AppDelegate.swift */,
 				C549B0DF2696840600EC004F /* Main.storyboard */,
 				C549B0E22696840700EC004F /* Assets.xcassets */,
 				C549B0E42696840700EC004F /* LaunchScreen.storyboard */,
 				C549B0E72696840700EC004F /* Info.plist */,
 				C5BB2F39269BD3E000D5AC35 /* GoogleService-Info.plist */,
-				C5BB2F3F269BD58600D5AC35 /* Authentication */,
 				C5E05A3526BB3C37005CBBC5 /* GradYearAndMajorVC.swift */,
 			);
 			path = RUmateApp;
@@ -227,6 +249,8 @@
 				C549B0F02696872F00EC004F /* RegisterViewController.swift in Sources */,
 				C5E05A3626BB3C37005CBBC5 /* GradYearAndMajorVC.swift in Sources */,
 				C549B0DA2696840600EC004F /* AppDelegate.swift in Sources */,
+				714442DB26C0986F0056A314 /* FeedCollectionViewCell.swift in Sources */,
+				71FBA94726C0B8BD00F4A303 /* FeedViewController.swift in Sources */,
 				C549B0DC2696840600EC004F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
